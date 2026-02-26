@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        main{
+            display: grid;
+            width: 100%;
+            justify-content: center;
+        }
+        form {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 5px;
+            background: #FAFAFA;
+            width: 90%;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>DATOS DEL PACIENTE</h1>
+        <form>
+            <label for="inDNI">DNI</label>
+            <input type="text" id="inDNI">
+            <label for="inFoto">Foto</label>
+            <input type="file" id="inFoto">
+            <label for="inNombres">Nombres</label>
+            <input type="text" id="inNombres">
+            <label for="inApellidos">Apellidos</label>
+            <input type="text" id="inApellidos">
+            <label for="inFechadeNacimiento">Fecha de Nacimiento</label>
+            <input type="date" id="inFechadeNacimiento">
+            <label for="inSexo">Sexo</label>
+            <select id="inSexo">
+                <option value=""></option>
+                <option value="Femenino">Femenino</option>
+                <option value="Masculino">Masculino</option>
+            </select>
+            <label for="inNombredelRepresentante">Nombre del Representante</label>
+            <input type="text" id="inNombredelRepresentante">
+            <label for="inTelefono">Telefono</label>
+            <input type="text" id="inTelefono">
+            <label for="inSala">Sala</label>
+            <select id="inSala">
+                <option value=""></option>
+                <option value="Emergencia">Emergencia</option>
+                <option value="Sala A">Sala</option>
+                <option value="Laboratorios">Laboratorios</option>
+                <option value="Rayos X">Rayos</option>
+                <option value="Hospitalización">Hospitalización</option>
+            </select>
+            <label for="inDireccion">Dirección</label>
+            <input type="text" id="inDireccion">
+            <label for="inPais">Pais</label>
+            <select id="inPais">
+                <option value=""></option>
+                <option value="Colombia">Colombia</option>
+                <option value="Venezuela">Venezuela</option>
+                <option value="Ecuador">Ecuador</option>
+                <option value="Perú">Perú</option>
+                <option value="Panamá">Panamá</option>
+                <option value="Brasil">Brasil</option>
+            </select>
+            <label for="inDepartamento">Departamento</label>
+            <input type="text" id="inDepartamento">
+            <label for="inProvincia">Provincia</label>
+            <input type="text" id="inProvincia">
+            <label for="inDistrito">Distrito</label>
+            <input type="text" id="inDistrito">
+            <label for="inEstadoCivil">Estado Civil</label>
+            <select id="inSala">
+                <option value=""></option>
+                <option value="Soltero">Soltero</option>
+                <option value="Casado">Casado</option>
+                <option value="Viudo">Viudo</option>
+                <option value="Union Libre">Unión Libre</option>
+                <option value="Separado">Separado</option>
+                <option value="Divorciado">Divorciado</option>
+            </select>
+            <label for="inEmergencia">Emergencia</label>
+            <input type="text" id="inEmergencia">
+            <label for="inGrupoSanguineo">Grupo Sanguineo</label>
+            <select id="inGrupoSanguineo">
+                <option value="Emergencia">Emergencia</option>
+                <option value="Sala A">Sala</option>
+                <option value="Laboratorios">Laboratorios</option>
+                <option value="Rayos X">Rayos</option>
+                <option value="Hospitalización">Hospitalización</option>
+            </select>
+
+            <input type="submit" name="" id="">
+            <input type="reset" name="" id="">
+    </main>
+</body>
