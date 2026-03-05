@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagenes</title>
+</head>
+<body>
+    <h1>IMAGENES EN HTML</h1>
+    <hr>
+    <section>
+        <img src="" 
+        alt="Imagen decubo soriente.">
+        title= "Cubo color rojo sonriente con pestañas."
+        srcset="
+        off_540x5450.png 400w,
+        off_1080x1080.png 600w,
+        off_2160x2160.png 1200w,
+        "
+    </section>
+    <section>
+        <picture>
+            <source media="(width >= 1200px)" srcset="/image/paisaje_rio.jpg">
+            <source media="(width >= 700px)" srcset="image/lago.jpg">
+            <img src="image/paisaje1.avif" alt="paisaje">
+        </picture>
+    </section>
+</body>
