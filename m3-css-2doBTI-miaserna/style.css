@@ -1,0 +1,110 @@
+ #seccion1{
+            background-color: black;
+            color: bisque;   
+        }
+        .seccion2{
+            background-color: rgba(4, 0, 255, 0.575);
+            color: white;
+        }
+        p{
+            font-size: 16px;
+        }
+
+/* Alineacion de textos */
+#articulo1{
+            text-align: center;
+            /* puede tener los siguientes
+            auto
+            left,right,center
+            justify
+            Tambien existenotros atributos
+            para alinear 
+             - text-aling
+             - text-aling-last
+             - vertical-aling
+             - direction
+             - unicode-bidi*/
+        }
+
+/* Decoraciones  de texto */
+#articulo1Titulo{
+    /* 
+     - text-decoration-line
+     - text-decoration-color
+     - text-decoration-style
+     - text-decoration-thicknees
+     */
+    text-decoration-line: underline;
+    /*solid, double, */
+    /* Underline overline line trugh */
+    text-decoration-color: chocolate;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 5px;
+}
+#articulo1Detalle{
+    text-decoration: underline wavy rgb(207, 96, 96);
+    /* font-style: oblique; */
+    font-weight: oblique;
+}
+
+/*Tranformaciones de texto */
+#articulo2Detalle{
+    text-transform: uppercase;
+    /* none, lowercase, uppercase, capitalize */
+}
+
+/*Espaciado de texto*/
+#articulo3Detalle{
+    text-indent: 50px;
+    letter-spacing: 20px;
+    line-height: 2.0;
+    white-space: pre-line;
+    /* whithe-space: pre-wrap; */
+    font-weight: 900; /* 400 es el normal y 900 es el bold*/
+}
+
+/*Sobras enlos textos */
+#articulo2Titulo{
+    color: white;
+    text-shadow: 3px 3px 4px rgba(25, 0, 255, 0.74);
+    letter-spacing: 10px;
+    /*Fuentes en CSS*/
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /*
+    font-size: xx-small, x-small, small, medium, large, x-large, 
+    xx-large
+    Se puede especificar los tamaños en: 
+    px, em, rem, %, vw, smaller, and larger;
+    */
+    font-size: 5vw; /* 1em = 16px & 1rem = 16px */
+}
+
+#articulosSection{
+    border: solid 1px black;
+    padding: 10px;
+}
+#artculo1, #articulo2, #articulo3{
+    border: 1px solid black;
+    margin: 10px;
+}
+
+articulo1{
+    background-color: bisque;
+    padding: 10px;
+    border-left: inset 5px blue;
+    margin: 10px;
+}
+
+articulo2{
+    background-color: rgb(128, 74, 228);
+    padding: 10px;
+    border-top: 10px  black outset;
+    margin: 10px;
+}
+
+articulo3{
+    background-color: rgb(215, 124, 252);
+    padding: 10px;
+    border-bottom: dashed 10px  pink;
+}
+/*Estilos de borde*/    
